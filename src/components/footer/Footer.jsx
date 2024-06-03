@@ -3,14 +3,12 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div >
+    <div>
       <section>
-        <div class="flex  justify-center my-3">
-          <div class="mx-1">© Copyright 2024 -</div>
-          <div class="mx-1">
-             Developed by Mohammad Wazahat Ali Rza.
-          </div>
-          <div class="mx-1"> All right reserved.</div>
+        <div class="flex flex-col sm:flex-row sm:justify-center sm:my-3">
+          <div class="sm:mx-1 flex justify-center my-2">© Copyright 2024 -</div>
+          <div class="sm:mx-1 flex justify-center my-2">Developed by Mohammad Wazahat Ali Rza.</div>
+          <div class="sm:mx-1 flex justify-center my-2"> All right reserved.</div>
         </div>
       </section>
     </div>
