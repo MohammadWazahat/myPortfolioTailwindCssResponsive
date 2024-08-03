@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <section>
-        <div className=" flex flex-col-reverse gap-16 my-24 justify-center items-center">
+        <div className=" flex flex-col-reverse gap-16 my-24 justify-center items-center lg:flex-row lg:mx-12">
           <div className=" basis-2/3 flex flex-col gap-6 mx-8  ">
             <div className=" text-green-300"> -- Hello World --</div>
             <div className="text-2xl font-normal">
@@ -38,7 +38,7 @@ const Home = () => {
               things about tech and coding, and currently i am working on my
               skill building
             </div>
-            <div className=" flex flex-col justify-center items-center gap-8 mt-12">
+            <div className=" flex flex-col justify-center items-center gap-8 mt-12 md:flex-row md:gap-16 lg:justify-start">
               <div className="border border-green-100 p-3 px-5 text-lg hover:text-green-500 hover:border-green-500 ">
                 <button>My Resume</button>
               </div>
@@ -47,7 +47,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="basis-1/3 h-72 w-72 ">
+          <div className="basis-1/3 h-72 w-72 lg:mb-24">
             <img src={imgpic} alt="Trulli" className="profileImage"></img>
           </div>
         </div>
