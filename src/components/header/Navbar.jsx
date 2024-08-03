@@ -7,33 +7,33 @@ const Navbar = () => {
     <div>
       <section>
         <header>
-          <div className="flex flex-col py-10 mx-20  sm:flex-row sm:py-3 ">
-            <div className="py-5 sm:basis-1/3 text-3xl sm:my-auto">
+          <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:px-16 ">
+            <div className=" flex justify-center items-center  text-3xl my-12  ">
               <span className="alphaColor">M</span>ohammad
-              <span className="alphaColor"> W</span>azahat
+              <span className="alphaColor ml-3"> W</span>azahat
             </div>
-            <div className="py-5 sm:basis-2/3 sm:my-auto text-lg ">
-              <ul className="flex flex-col mx-24 sm:mx-10 sm:flex-row sm:justify-end ">
-                <li className="my-2 sm:mx-3 hover:text-green-300">
+            <div className=" text-lg mb-12 lg:mt-14">
+              <ul className="flex flex-col justify-center items-center gap-6 sm:flex-row ">
+                <li className=" hover:text-green-300">
                   <NavLink to="/">Home</NavLink>
                 </li>
-                <li className="my-2 sm:mx-3 hover:text-green-300">
+                <li className=" hover:text-green-300">
                   <NavLink to="/myResume">My Resume</NavLink>
                 </li>
-                <li className="my-2 sm:mx-3 hover:text-green-300">
+                <li className=" hover:text-green-300">
                   <NavLink to="/myProjects">My Projects</NavLink>
                 </li>
-                <li className="my-2 sm:mx-3 hover:text-green-300">
+                <li className=" hover:text-green-300">
                   <NavLink to="/aboutMe">About Me</NavLink>
                 </li>
-                <li className="my-2 sm:mx-3 hover:text-green-300">
+                <li className=" hover:text-green-300">
                   <NavLink to="/contactMe">Contact Me</NavLink>
                 </li>
               </ul>
             </div>
           </div>
           <div>
-            <hr className="border hover:border-green-500 mx-5 sm:mx-20 " />
+            <hr className="border hover:border-green-500 " />
           </div>
         </header>
       </section>
