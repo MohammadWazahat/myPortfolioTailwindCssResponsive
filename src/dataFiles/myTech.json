@@ -1,0 +1,100 @@
+{
+    "techs": [
+      {
+        "techName": "HTML",
+        "description": "wwww"
+      },
+      {
+        "techName": "CSS",
+        "description": "wwww"
+      },
+      {
+        "techName": "JAVASCRIPT",
+        "description": "wwww"
+      },
+      {
+        "techName": "REACT",
+        "description": "wwww"
+      },
+      {
+        "techName": "TAILWIND CSS",
+        "description": "wwww"
+      },
+      {
+        "techName": "BOOTSTRAP",
+        "description": "wwww"
+      },
+      {
+        "techName": "NODE.js",
+        "description": "wwww"
+      },
+      {
+        "techName": "EXPRESS.js",
+        "description": "wwww"
+      },
+      {
+        "techName": "MONGODB",
+        "description": "wwww"
+      },
+      {
+        "techName": "REST API",
+        "description": "wwww"
+      },
+      {
+        "techName": "AUTHENTICATION & AUTORIZATION",
+        "description": "wwww"
+      },
+      {
+        "techName": "JWT AUTH",
+        "description": "wwww"
+      },
+      {
+        "techName": "REDUX",
+        "description": "wwww"
+      },
+      {
+        "techName": "REDUX TOOLKIT",
+        "description": "wwww"
+      },
+      {
+        "techName": "GIT & GITHUB",
+        "description": "wwww"
+      },
+      {
+        "techName": "JSON",
+        "description": "wwww"
+      },
+      {
+        "techName": "TANSTACK QUERY",
+        "description": "wwww"
+      },
+      {
+        "techName": "FORMIK & YUP",
+        "description": "wwww"
+      },
+      {
+        "techName": "RAZORPAY",
+        "description": "wwww"
+      },
+      {
+        "techName": "SOCKET.IO",
+        "description": "wwww"
+      },
+      {
+        "techName": "RTK QUERY",
+        "description": "wwww"
+      },
+      {
+        "techName": "DEPLOYMENT",
+        "description": "wwww"
+      },
+      {
+        "techName": "TYPESCRIPT",
+        "description": "wwww"
+      },
+      {
+        "techName": "NEXT.JS",
+        "description": "wwww"
+      }
+    ]
+  }

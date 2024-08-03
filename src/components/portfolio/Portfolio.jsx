@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Portfolio = () => {
   const router = createBrowserRouter([
     {
-      path: "/home",
+      path: "/",
       element: (
         <>
           <Navbar />

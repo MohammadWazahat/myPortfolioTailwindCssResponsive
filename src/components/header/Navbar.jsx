@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="py-5 sm:basis-2/3 sm:my-auto text-lg ">
               <ul className="flex flex-col mx-24 sm:mx-10 sm:flex-row sm:justify-end ">
                 <li className="my-2 sm:mx-3 hover:text-green-300">
-                  <NavLink to="/home">Home</NavLink>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="my-2 sm:mx-3 hover:text-green-300">
                   <NavLink to="/myResume">My Resume</NavLink>
