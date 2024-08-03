@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleTech = (x) => {
-  console.log(x);
+  // console.log(x);
   return (
     <div>
       <div>

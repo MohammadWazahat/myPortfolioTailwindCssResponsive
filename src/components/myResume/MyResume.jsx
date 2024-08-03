@@ -1,11 +1,15 @@
 import React from "react";
 import "./MyResume.css";
+import data from "../../dataFiles/myTech.json";
 
 const MyResume = () => {
+  // console.log(data);
   return (
     <div className="py-16">
       <div className="flex justify-end mx-20">
-        <button className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3">Download My Resume</button>
+        <button className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3">
+          Download My Resume
+        </button>
       </div>
       <div className="my-10 text-xl text-center text-green-200">
         -- My Resume --
@@ -64,17 +68,96 @@ const MyResume = () => {
           </div>
           <div>
             <div className="resumeheadings">Skills :- </div>
-            <ul>
-              <li>● HTML , CSS , JAVASCRIPT.</li>
-              <li>● REACT , REDUX , BOOTSTRAP , TAILWIND CSS .</li>
-              <li>● NODE.JS , EXPRESS.JS , MONGODB , MONGOOSE.</li>
-              <li>
-                ● TEMPLATE ENGINE (EJS : For Server side rendering ),
-                Git/Github.
-              </li>
-            </ul>
+            <div className="grid grid-cols-4 gap-4">
+              {data.featuredTechs.map((item, index) => {
+                return (
+                  <div key={index}>
+                    <div className="bdr p-2 rounded-xl flex justify-center items-center">
+                      {item.techName}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div>
+            <div>
+              <div className="resumeheadings">Project :-</div>
+              <ul className="flex flex-col gap-6">
+                <li>
+                  <div className="text-xl text-green-500">
+                    Project 1 : E-Commerce App
+                  </div>
+                  <div className="text-lg text-yellow-500 font-normal">
+                    {" "}
+                    FrontEnd Technologies:{" "}
+                  </div>
+                  <div>Basic : HTML , CSS ,JAVASCRIPT </div>
+                  <div>Web Designing : Tailwind Css , FlowBite , Bootstrap</div>
+                  <div>Client Side Rendering : Using REACT</div>
+                  <div>
+                    State Management : Using React reducer and Context Api
+                  </div>
+                  <div>Form Handling : Using Formik & Yup</div>
+                  <div>Server Side State Management : Using Tanstack Query</div>
+                  <div className="text-lg text-yellow-500 font-normal">
+                    BackEnd Technologies :
+                  </div>
+                  <div>
+                    {" "}
+                    Node.js , Express.js , mongoose for schema modeling
+                  </div>
+                  <div className="text-lg text-yellow-500 font-normal">
+                    DataBase : Using MongoDb
+                  </div>
+                  <div className="text-lg text-yellow-500 font-normal">
+                    Deployed Website Link
+                  </div>
+                  <div>FrontEnd</div>
+                  <div>BackEnd</div>
+                </li>
+                <li>
+                  <div>Project 2 : Social Media App</div>
+                  <div>Technologies Used :- </div>
+                  <div> FrontEnd : </div>
+                  <div>Basic : HTML , CSS ,JAVASCRIPT </div>
+                  <div>Web Designing : Tailwind Css , FlowBite , Bootstrap</div>
+                  <div>Client Side Rendering : Using REACT</div>
+                  <div>State Management : Using Redux Toolkit</div>
+                  <div>Form Handling : Using Rtk Forms </div>
+                  <div>Server Side State Management : Using RTK Query</div>
+                  <div>BackEnd :</div>
+                  <div>
+                    {" "}
+                    Node.js , Express.js , mongoose for schema modeling
+                  </div>
+                  <div>DataBase : Using MongoDb</div>
+                  <div>Deployed Website Link</div>
+                  <div>FrontEnd</div>
+                  <div>BackEnd</div>
+                </li>
+                <li>
+                  <div>Project 3 : My Portfolio Website</div>
+                  <div>Technologies Used :- </div>
+                  <div> FrontEnd : </div>
+                  <div>Basic : HTML , CSS ,JAVASCRIPT </div>
+                  <div>Web Designing : Tailwind Css , FlowBite , Bootstrap</div>
+                  <div>Client Side Rendering : Using REACT</div>
+                  <div>State Management : Using Redux Toolkit</div>
+                  <div>Form Handling : Using Rtk Forms </div>
+                  <div>Server Side State Management : Using RTK Query</div>
+                  <div>BackEnd :</div>
+                  <div>
+                    {" "}
+                    Node.js , Express.js , mongoose for schema modeling
+                  </div>
+                  <div>DataBase : Using MongoDb</div>
+                  <div>Deployed Website Link</div>
+                  <div>FrontEnd</div>
+                  <div>BackEnd</div>
+                </li>
+              </ul>
+            </div>
             <div className="resumeheadings">Experience :- </div>
             <ul>
               <li>
@@ -86,19 +169,6 @@ const MyResume = () => {
                 ● 1 year experience in teaching college students Computer
                 science ( Basic + Advanced ) in SIR M.U COLLEGE OF PHARMACY ,
                 Etah.
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div className="resumeheadings">Project :-</div>
-            <ul>
-              <li>
-                ● TODO APP AND BLOG APP using MERN STACK (All crud features ).
-              </li>
-              <li>● Same TODO APP using Template Engine EJS (For SSR ).</li>
-              <li>
-                ● Various small components using different technologies like
-                Tailwind CSS , Bootstrap , Redux.
               </li>
             </ul>
           </div>

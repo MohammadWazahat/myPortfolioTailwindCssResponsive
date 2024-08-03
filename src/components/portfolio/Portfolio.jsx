@@ -5,10 +5,10 @@ import Home from "../home/Home";
 import Footer from "../footer/Footer";
 import MyResume from "../myResume/MyResume";
 import MyProjects from "../myProjects/MyProjects";
-import AboutMe from "../aboutMe/AboutMe";
 import ContactMe from "../contactMe/ContactMe";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MySkills from "../mySkills/MySkills";
 
 const Portfolio = () => {
   const router = createBrowserRouter([
@@ -43,11 +43,11 @@ const Portfolio = () => {
       ),
     },
     {
-      path: "/aboutMe",
+      path: "//mySkills",
       element: (
         <>
           <Navbar />
-          <AboutMe />
+          <MySkills/>
           <Footer />
         </>
       ),
@@ -64,7 +64,7 @@ const Portfolio = () => {
     },
   ]);
   return (
-    <div className="flex flex-col bg-violet-900 text-gray-100">
+    <div >
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

@@ -24,7 +24,7 @@ const Navbar = () => {
                   <NavLink to="/myProjects">My Projects</NavLink>
                 </li>
                 <li className=" hover:text-green-300">
-                  <NavLink to="/aboutMe">About Me</NavLink>
+                  <NavLink to="/mySkills">My Skills</NavLink>
                 </li>
                 <li className=" hover:text-green-300">
                   <NavLink to="/contactMe">Contact Me</NavLink>
