@@ -1,3 +1,11 @@
 .bdr{
     border : 1px solid white ;
 }
+
+.btn1{
+    background: #64FFDA;
+}
+
+.btn2{
+    background: rgb(247, 229, 64);
+}

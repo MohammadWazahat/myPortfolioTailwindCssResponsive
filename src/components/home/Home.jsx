@@ -56,8 +56,15 @@ const Home = () => {
       <section>
         <MyTech />
       </section>
-      <section>
-        <MyForm/>
+      <section className="mt-32">
+        <div className="mt-12 flex justify-center items-center text-3xl font-medium ">
+          Connect With Me
+        </div>
+        <div className="flex justify-center items-center ">
+          <div className="mt-12 w-full m-4 md:mx-8 lg:w-1/2">
+            <MyForm />
+          </div>
+        </div>
       </section>
     </div>
   );
