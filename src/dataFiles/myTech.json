@@ -1,103 +1,118 @@
 {
   "allTechs": [
     {
+      "logo" : "https://img.icons8.com/?size=100&id=20909&format=png&color=000000 ",
       "techName": "HTML",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=21278&format=png&color=000000 ",
       "techName": "CSS",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
       "techName": "JAVASCRIPT",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000 ",
       "techName": "REACT",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000 ",
       "techName": "TAILWIND CSS",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=EzPCiQUqWWEa&format=png&color=000000",
       "techName": "BOOTSTRAP",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
       "techName": "NODE.js",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
       "techName": "EXPRESS.js",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=o6OvAxG0nzTH&format=png&color=000000",
       "techName": "MONGODB",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=55497&format=png&color=000000 ",
       "techName": "REST API",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=119114&format=png&color=000000 ",
       "techName": "AUTHENTICATION",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "AUTHORIZATION",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000",
       "techName": "JWT AUTH",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000",
       "techName": "REDUX",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000 ",
       "techName": "REDUX TOOLKIT",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
       "techName": "GIT & GITHUB",
       "description": "wwww"
     },
     {
+      "logo" : " https://img.icons8.com/?size=100&id=bc1GlIxnpeiF&format=png&color=000000",
       "techName": "JSON",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "TANSTACK QUERY",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "FORMIK & YUP",
       "description": "wwww"
     },
     {
+      "logo" : "https://img.icons8.com/?size=100&id=HcQEdKCkXUs3&format=png&color=000000 ",
       "techName": "RAZORPAY",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "SOCKET.IO",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "RTK QUERY",
       "description": "wwww"
     },
     {
+      "logo" : " ",
       "techName": "DEPLOYMENT",
-      "description": "wwww"
-    },
-    {
-      "techName": "TYPESCRIPT",
-      "description": "wwww"
-    },
-    {
-      "techName": "NEXT.JS",
       "description": "wwww"
     }
   ],
@@ -123,15 +138,7 @@
       "description": "wwww"
     },
     {
-      "techName": "BOOTSTRAP",
-      "description": "wwww"
-    },
-    {
       "techName": "NODE.js",
-      "description": "wwww"
-    },
-    {
-      "techName": "EXPRESS.js",
       "description": "wwww"
     },
     {
@@ -149,40 +156,37 @@
     {
       "techName": "GIT & GITHUB",
       "description": "wwww"
-    },
-
-    {
-      "techName": "TANSTACK QUERY",
-      "description": "wwww"
-    },
-    {
-      "techName": "FORMIK & YUP",
-      "description": "wwww"
     }
   ],
   "futureTechs": [
     {
+      "logo" : "https://img.icons8.com/?size=100&id=HcQEdKCkXUs3&format=png&color=000000 ",
       "techName": "TYPESCRIPT",
       "description": "wwww"
     },
     {
-      "techName": "NEXT.JS",
+      "logo" : "https://img.icons8.com/?size=100&id=HcQEdKCkXUs3&format=png&color=000000 ",
+     "techName": "NEXT.JS",
       "description": "wwww"
     },
     {
-      "techName": "MySQL",
+      "logo" : "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000 ",
+     "techName": "MySQL",
       "description": "wwww"
     },
     {
-      "techName": "PHP",
+      "logo" : "https://img.icons8.com/?size=100&id=JybIpZjjXT0F&format=png&color=000000",
+     "techName": "PHP",
       "description": "wwww"
     },
     {
-      "techName": "PYTHON",
+      "logo" : "https://img.icons8.com/?size=100&id=13441&format=png&color=000000 ",
+     "techName": "PYTHON",
       "description": "wwww"
     },
     {
-      "techName": "JAVA",
+      "logo" : "https://img.icons8.com/?size=100&id=13679&format=png&color=000000 ",
+     "techName": "JAVA",
       "description": "wwww"
     }
   ]

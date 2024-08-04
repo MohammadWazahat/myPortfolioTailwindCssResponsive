@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import imgpic from "./PiyushGarg.png";
 import MyTech from "./MyTech";
+import MyForm from "./MyForm";
 const Home = () => {
   // useEffect(()=>{
   //   var typed = new Typed("#element", {
@@ -54,6 +55,9 @@ const Home = () => {
       </section>
       <section>
         <MyTech />
+      </section>
+      <section>
+        <MyForm/>
       </section>
     </div>
   );

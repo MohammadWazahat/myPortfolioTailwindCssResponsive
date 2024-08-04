@@ -1,10 +1,38 @@
 import React from "react";
 import "./Footer.css";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
     <div>
-      <section className="mt-24">
+      <section className="abc mt-24 ">
+        <div className="flex justify-center items-center gap-8 m-2 p-2">
+          <div>
+            <FaLinkedin
+              className="h-8 w-8 "
+              onMouseOver={({ target }) => (target.style.color = "green")}
+              onMouseOut={({ target }) => (target.style.color = "white")}
+            />
+          </div>
+          <div>
+            <FaGithub
+              className="h-8 w-8 "
+              onMouseOver={({ target }) => (target.style.color = "green")}
+              onMouseOut={({ target }) => (target.style.color = "white")}
+            />
+          </div>
+          <div>
+            <SiGmail
+              className="h-8 w-8 "
+              onMouseOver={({ target }) => (target.style.color = "green")}
+              onMouseOut={({ target }) => (target.style.color = "white")}
+            />
+          </div>
+        </div>
+      </section>
+      <section >
         <div>
           <hr className="border hover:border-green-500 " />
         </div>
