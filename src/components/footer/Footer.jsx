@@ -8,43 +8,44 @@ const Footer = () => {
   return (
     <div>
       <section className="abc mt-24 ">
-        <div className="flex justify-center items-center gap-8 m-2 p-2">
+        <div className="flex justify-center items-center gap-12 m-2 p-2">
           <div>
             <FaLinkedin
-              className="h-8 w-8 "
+              className="h-6 w-6 "
               onMouseOver={({ target }) => (target.style.color = "green")}
               onMouseOut={({ target }) => (target.style.color = "white")}
             />
           </div>
           <div>
             <FaGithub
-              className="h-8 w-8 "
+             className="h-6 w-6 "
               onMouseOver={({ target }) => (target.style.color = "green")}
               onMouseOut={({ target }) => (target.style.color = "white")}
             />
           </div>
           <div>
             <SiGmail
-              className="h-8 w-8 "
+              className="h-6 w-6 "
               onMouseOver={({ target }) => (target.style.color = "green")}
               onMouseOut={({ target }) => (target.style.color = "white")}
             />
           </div>
         </div>
       </section>
-      <section >
+      <section>
         <div>
           <hr className="border hover:border-green-500 " />
         </div>
         <div className="flex flex-col mt-8 mb-4 md:flex-row md:justify-center md:my-3">
-          <div className="md:mx-1 flex justify-center my-2">
-            © Copyright 2024 -
+          <div className="md:mx-2 flex justify-center my-2">
+            © Copyright 2024
           </div>
-          <div className="md:mx-1 flex justify-center my-2">
+          <span className="mx-2 my-2">|</span>
+          <div className="md:mx-2 flex justify-center my-2">
             Developed by Mohammad Wazahat Ali Rza.
           </div>
-          <div className="md:mx-1 flex justify-center my-2">
-            {" "}
+          <span className="mx-2 my-2">|</span>
+          <div className="md:mx-2 flex justify-center my-2">
             All right reserved.
           </div>
         </div>

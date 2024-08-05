@@ -48,8 +48,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="basis-1/3 h-72 w-72 lg:mb-24">
-            <img src={imgpic} alt="Trulli" className="profileImage"></img>
+          <div className="basis-1/3 lg:mb-24 border rounded-full p-4 shadow-lg shadow-green-400">
+            <img src={imgpic} alt="Trulli" className=""></img>
           </div>
         </div>
       </section>
