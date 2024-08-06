@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const ProjectThree = () => {
   return (
     <div>
-      i m project three
+      <div className="flex justify-center items-center text-4xl font-medium my-48">
+        Coming Soon .....
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectThree
+export default ProjectThree;

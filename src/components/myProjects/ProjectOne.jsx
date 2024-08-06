@@ -1,49 +1,113 @@
-import React from "react";
+import React, { useState } from "react";
+import TechCard from "./TechCard";
 
 const ProjectOne = () => {
+  const [techs, setTechs] = useState({
+    Basic: ["HTML", "CSS", "JAVASCRIPT"],
+    WebDesigning: ["Tailwind Css", "FlowBite", "Bootstrap"],
+    CSR: ["REACT"],
+    StateManagement: ["REACT REDUCER", "CONTEXT API"],
+    FormHandling: ["FORMIK", "YUP"],
+    SSStateManage: ["TANSTACK QUERY"],
+    BeTech: ["NODE.JS", "EXPRESS.JS", "MONGOOSE"],
+    DataBase: ["MONGODB"],
+    Auth: ["JWT AUTHENTICATION"],
+    PaymentGateway: ["RAZORPAY"],
+  });
+  console.log(techs);
   return (
     <div>
-      i m project one
-      <div>
-        <div className="bdr">
-          <div>part 1 Project One Project Two</div>
-          <div>
-            <div>project 1 </div>
-            <div>
-              <div className="text-xl text-green-500">
-                Project 1 : E-Commerce App
-              </div>
-              <div className="text-lg text-yellow-500 font-normal">
-                Deployed Website Link
-              </div>
-              <div>FrontEnd</div>
-              <div>BackEnd</div>
-
-              <div className="text-lg text-yellow-500 font-normal">
-                {" "}
-                FrontEnd Technologies:{" "}
-              </div>
-              <div>Basic : HTML , CSS ,JAVASCRIPT </div>
-              <div>Web Designing : Tailwind Css , FlowBite , Bootstrap</div>
-              <div>Client Side Rendering : Using REACT</div>
-              <div>State Management : Using React reducer and Context Api</div>
-              <div>Form Handling : Using Formik & Yup</div>
-              <div>Server Side State Management : Using Tanstack Query</div>
-              <div className="text-lg text-yellow-500 font-normal">
-                BackEnd Technologies :
-              </div>
-              <div> Node.js , Express.js , mongoose for schema modeling</div>
-              <div className="text-lg text-yellow-500 font-normal">
-                DataBase : Using MongoDb
-              </div>
-
-              <div>Page bulid</div>
-              <div>Component build</div>
-              <div>Working of the Components</div>
+      <section>
+        <div>
+          <div className="relative">
+            <img
+              className="w-full h-screen"
+              src="https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt=""
+            />
+            <div className="absolute inset-x-1/4 lg:inset-x-1/3 inset-y-1/4 text-gray-800 font-normal text-lg sm:text-2xl md:text-3xl lg:text-4xl bg-transparent">
+              MY ECOMMERCE APP
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section>
+        <div>
+          <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+            FRONTEND TECHNOLOGIES USED
+          </div>
+          <div>
+            <TechCard techName="BASIC" data={techs.Basic} />
+          </div>
+          <div>
+            <TechCard techName="FRONTEND DESIGNING" data={techs.WebDesigning} />
+          </div>
+          <div>
+            <TechCard techName="CLIENT SIDE RENDERING" data={techs.CSR} />
+          </div>
+          <div>
+            <TechCard
+              techName="CLIENT SIDE STATE MANAGEMENT"
+              data={techs.StateManagement}
+            />
+          </div>
+          <div>
+            <TechCard
+              techName="FORM HANDLING & VALIDATION"
+              data={techs.FormHandling}
+            />
+          </div>
+          <div>
+            <TechCard
+              techName="SERVER SIDE STATE MANAGEMENT"
+              data={techs.SSStateManage}
+            />
+          </div>
+          <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32 ">
+            BACKEND TECHNOLOGIES & TOOLS USED
+          </div>
+          <div>
+            <TechCard techName="REST API" data={techs.BeTech} />
+          </div>
+          <div>
+            <TechCard techName="DATABASE" data={techs.DataBase} />
+          </div>
+          <div>
+            <TechCard
+              techName="AUTHENTICATON & AUTHORIZATION"
+              data={techs.Auth}
+            />
+          </div>
+          <div>
+            <TechCard techName="PAYMENT GATEWAY" data={techs.PaymentGateway} />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+          Deployed Website Link
+        </div>
+        <div className="flex justify-center items-center mt-12">
+          <button
+            type="button"
+            className="border border-green-400 rounded-3xl w-1/6 h-12 my-6 text-gray-900 font-bold btn1"
+          >
+            Visit Website
+          </button>
+        </div>
+
+        <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+          Source Code
+        </div>
+        <div className="flex justify-center items-center mt-12">
+          <button
+            type="button"
+            className="border border-green-400 rounded-xl w-1/6 h-12 my-6 text-gray-900 font-bold bg-green-500"
+          >
+            Click Here
+          </button>
+        </div>
+      </section>
     </div>
   );
 };
