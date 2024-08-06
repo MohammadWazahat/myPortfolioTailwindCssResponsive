@@ -21,13 +21,10 @@ const Navbar = () => {
                   <NavLink to="/myResume">My Resume</NavLink>
                 </li>
                 <li className=" hover:text-green-300">
-                  <NavLink to="/myProjects">My Projects</NavLink>
-                </li>
-                <li className=" hover:text-green-300">
                   <NavLink to="/mySkills">My Skills</NavLink>
                 </li>
                 <li className=" hover:text-green-300">
-                  <NavLink to="/contactMe">Contact Me</NavLink>
+                  <NavLink to="/myProjects">My Projects</NavLink>
                 </li>
               </ul>
             </div>

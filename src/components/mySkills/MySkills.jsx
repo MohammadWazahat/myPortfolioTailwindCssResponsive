@@ -24,10 +24,10 @@ const MySkills = () => {
           })}
         </div>
       </div>
-      <div>
-        <hr className="mt-32 border hover:border-green-500 " />
-      </div>
-      <div className="mt-32 text-3xl m-2 flex justify-center items-center my-24 font-normal hover:text-orange-500">
+ 
+     <section>
+      <div className="my-72">
+      <div className=" text-3xl m-2 flex justify-center items-center my-24 font-normal hover:text-orange-500">
         Skills I am Working On
       </div>
       <div>
@@ -46,6 +46,8 @@ const MySkills = () => {
           })}
         </div>
       </div>
+      </div>
+     </section>
     </div>
   );
 };
