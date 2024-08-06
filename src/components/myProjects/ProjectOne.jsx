@@ -21,7 +21,7 @@ const ProjectOne = () => {
         <div>
           <div className="relative">
             <img
-              className="w-full h-screen"
+              className="w-full h-72 lg:h-screen "
               src="https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt=""
             />
@@ -33,7 +33,7 @@ const ProjectOne = () => {
       </section>
       <section>
         <div>
-          <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+          <div className="flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-orange-400 mt-32">
             FRONTEND TECHNOLOGIES USED
           </div>
           <div>
@@ -63,7 +63,7 @@ const ProjectOne = () => {
               data={techs.SSStateManage}
             />
           </div>
-          <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32 ">
+          <div className="flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-orange-400 mt-32 ">
             BACKEND TECHNOLOGIES & TOOLS USED
           </div>
           <div>
@@ -84,25 +84,25 @@ const ProjectOne = () => {
         </div>
       </section>
       <section>
-        <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+        <div className="flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-orange-400 mt-32">
           Deployed Website Link
         </div>
         <div className="flex justify-center items-center mt-12">
           <button
             type="button"
-            className="border border-green-400 rounded-3xl w-1/6 h-12 my-6 text-gray-900 font-bold btn1"
+            className="border border-green-400 rounded-3xl  w-1/2 sm:w-1/3 lg:w-1/6  h-12 my-6 text-gray-900 font-bold btn1"
           >
             Visit Website
           </button>
         </div>
 
-        <div className="flex justify-center items-center text-3xl font-normal text-orange-400 mt-32">
+        <div className="flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-orange-400 mt-32">
           Source Code
         </div>
         <div className="flex justify-center items-center mt-12">
           <button
             type="button"
-            className="border border-green-400 rounded-xl w-1/6 h-12 my-6 text-gray-900 font-bold bg-green-500"
+            className="border border-green-400 rounded-xl w-1/2 sm:w-1/3 lg:w-1/6 h-12 my-6 text-gray-900 font-bold bg-green-500"
           >
             Click Here
           </button>

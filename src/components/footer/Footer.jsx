@@ -39,12 +39,15 @@ const Footer = () => {
         <div className="flex flex-col mt-8 mb-4 md:flex-row md:justify-center md:my-3">
           <div className="md:mx-2 flex justify-center my-2">
             © Copyright 2024
+            
           </div>
-          <span className="mx-2 my-2">|</span>
+         
           <div className="md:mx-2 flex justify-center my-2">
+          <span className="mx-2">|</span>
             Developed by Mohammad Wazahat Ali Rza.
+            <span className="mx-2 ">|</span>
           </div>
-          <span className="mx-2 my-2">|</span>
+         
           <div className="md:mx-2 flex justify-center my-2">
             All right reserved.
           </div>

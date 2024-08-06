@@ -4,18 +4,17 @@ import imgpic from "./PiyushGarg.png";
 import MyTech from "./MyTech";
 import MyForm from "./MyForm";
 const Home = () => {
-  // useEffect(()=>{
-  //   var typed = new Typed("#element", {
-  //     strings: [
-  //       "Software Engineer",
-  //       "Sofware Tester",
-  //       "Web Designer",
-  //       "Web Developer",
-  //     ],
-  //     typeSpeed: 50,
-  //   });
-  // }
-  // )
+  useEffect(() => {
+    var typed = new Typed("#element", {
+      strings: [
+        "Software Engineer",
+        "Sofware Tester",
+        "Web Designer",
+        "Web Developer",
+      ],
+      typeSpeed: 50,
+    });
+  }, []);
 
   return (
     <div>
@@ -28,9 +27,7 @@ const Home = () => {
               <span className="text-green-300 ml-3">W</span>azahat
             </div>
             <div className="">
-              <span id="element" className="text-green-300 text-xl">
-                ABC
-              </span>
+              <span id="element" className="text-green-300 text-xl"></span>
             </div>
             <div className="">
               Hi there! My name is Mohammad Wazahat and I am a Computer Science
@@ -48,8 +45,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="basis-1/3 lg:mb-24 border rounded-full p-4 shadow-lg shadow-green-400">
-            <img src={imgpic} alt="Trulli" className=""></img>
+          <div className="basis-1/3 lg:mb-24 flex justify-center items-center">
+            <img src={imgpic} alt="Trulli" className="w-3/4 sm:w-1/2 md:1/3 lg:w-full"></img>
           </div>
         </div>
       </section>
@@ -61,7 +58,7 @@ const Home = () => {
           Connect With Me
         </div>
         <div className="flex justify-center items-center ">
-          <div className="mt-12 w-full m-4 md:mx-8 lg:w-1/2">
+          <div className="mt-12 w-full md:w-3/4 m-4 md:mx-8 lg:w-1/2">
             <MyForm />
           </div>
         </div>

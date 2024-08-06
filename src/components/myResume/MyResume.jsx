@@ -11,7 +11,7 @@ const MyResume = () => {
   // console.log(data);
   return (
     <div className=" mb-72">
-       <div className="flex justify-end mx-20 mt-32">
+       <div className="flex justify-center items-center lg:justify-end mx-20 mt-32">
         <button className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3">
           Download My Resume
         </button>

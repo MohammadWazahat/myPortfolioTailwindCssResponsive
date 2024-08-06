@@ -40,7 +40,7 @@ const MyGoals = () => {
         My Goals
       </div>
       <div className="flex justify-center items-center">
-        <div className=" grid grid-cols-3  gap-8 lg:w-4/5 ">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-3  gap-8 lg:w-4/5 ">
           {goals.map((item, index) => {
             return (
               <div key={index}>

@@ -10,7 +10,7 @@ const MyResumeCard = () => {
         <div className="text-3xl font-normal text-orange-400 my-12">
           My Education
         </div>
-        <div className="grid grid-cols-2 gap-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           {data.myEducation.map((item, index) => {
             return (
               <div key={index}>

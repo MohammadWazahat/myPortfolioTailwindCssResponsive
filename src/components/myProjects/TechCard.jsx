@@ -6,8 +6,8 @@ const TechCard = (x) => {
   return (
     <div>
       <div className="mt-20 flex flex-col gap-8 justify-center items-center p-4">
-        <div className="text-2xl hover:text-orange-400 text-green-400 font-light ">{x.techName}</div>
-        <div className="flex gap-8 ">
+        <div className="text-lg sm:text-xl lg:text-2xl hover:text-orange-400 text-green-400 font-light ">{x.techName}</div>
+        <div className="flex flex-col lg:flex-row gap-8 ">
           {x.data.map((item, index) => {
             return (
               <div key={index}>

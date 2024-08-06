@@ -33,15 +33,15 @@ const MyProjects = () => {
           <div>
             <div>
               {projectNo == "one" ? (
-                <div className="m-12">
+                <div className="my-12">
                   <ProjectOne />
                 </div>
               ) : projectNo == "two" ? (
-                <div className="m-12">
+                <div className="my-12">
                   <ProjectTwo />
                 </div>
               ) : (
-                <div className="m-12">
+                <div className="my-12">
                   <ProjectThree />
                 </div>
               )}
