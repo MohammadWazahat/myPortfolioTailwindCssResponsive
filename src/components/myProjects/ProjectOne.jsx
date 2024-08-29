@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TechCard from "./TechCard";
+import { Link } from "react-router-dom";
 
 const ProjectOne = () => {
   const [techs, setTechs] = useState({
@@ -88,24 +89,28 @@ const ProjectOne = () => {
           Deployed Website Link
         </div>
         <div className="flex justify-center items-center mt-12">
-          <button
-            type="button"
-            className="border border-green-400 rounded-3xl  w-1/2 sm:w-1/3 lg:w-1/6  h-12 my-6 text-gray-900 font-bold btn1"
+          <Link
+            to="https://test-ecom-fe.vercel.app/"
+            className="text-gray-900 font-bold btn1 border border-green-400 rounded-3xl  w-1/2 sm:w-1/3 lg:w-1/6  h-12 my-6 flex justify-center items-center"
           >
-            Visit Website
-          </button>
+            <button type="button" className=" ">
+              Visit Website
+            </button>
+          </Link>
         </div>
 
         <div className="flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-orange-400 mt-32">
           Source Code
         </div>
         <div className="flex justify-center items-center mt-12">
-          <button
-            type="button"
-            className="border border-green-400 rounded-xl w-1/2 sm:w-1/3 lg:w-1/6 h-12 my-6 text-gray-900 font-bold bg-green-500"
+          <Link
+            to="https://github.com/MohammadWazahat/myPortfolioTailwindCssResponsive"
+            className="text-gray-900 font-bold btn1 border border-green-400 rounded-2xl  w-1/2 sm:w-1/3 lg:w-1/6  h-12 my-6 flex justify-center items-center"
           >
-            Click Here
-          </button>
+            <button type="button" className=" ">
+              Click Here
+            </button>
+          </Link>
         </div>
       </section>
     </div>
