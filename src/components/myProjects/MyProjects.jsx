@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectOne from "./ProjectOne";
 import ProjectTwo from "./ProjectTwo";
 import ProjectThree from "./ProjectThree";
+import ProjectFour from "./ProjectFour";
 
 const MyProjects = () => {
   const [projectNo, setProjectNo] = useState("one");
@@ -9,27 +10,33 @@ const MyProjects = () => {
   return (
     <div>
       <div>
-        <div >
-       <div className="flex gap-6 m-12">
-       <button
-            className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
-            onClick={() => setProjectNo("one")}
-          >
-            Project one
-          </button>
-          <button
-            className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
-            onClick={() => setProjectNo("two")}
-          >
-            Project Two
-          </button>
-          <button
-            className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
-            onClick={() => setProjectNo("three")}
-          >
-            Project Three
-          </button>
-       </div>
+        <div>
+          <div className="flex gap-6 m-12">
+            <button
+              className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
+              onClick={() => setProjectNo("one")}
+            >
+              Project Ecommerce App
+            </button>
+            <button
+              className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
+              onClick={() => setProjectNo("two")}
+            >
+              Project Todo App
+            </button>
+            <button
+              className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
+              onClick={() => setProjectNo("three")}
+            >
+              Project Social Media App
+            </button>
+            <button
+              className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
+              onClick={() => setProjectNo("four")}
+            >
+              Project Four
+            </button>
+          </div>
           <div>
             <div>
               {projectNo == "one" ? (
@@ -38,11 +45,15 @@ const MyProjects = () => {
                 </div>
               ) : projectNo == "two" ? (
                 <div className="my-12">
-                  <ProjectTwo />
+                  <ProjectFour />
+                </div>
+              ) : projectNo == "four" ? (
+                <div className="my-12">
+                  <ProjectThree />
                 </div>
               ) : (
                 <div className="my-12">
-                  <ProjectThree />
+                  <ProjectTwo />
                 </div>
               )}
             </div>
