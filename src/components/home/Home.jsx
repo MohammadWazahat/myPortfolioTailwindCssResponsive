@@ -46,7 +46,11 @@ const Home = () => {
             </div>
           </div>
           <div className="basis-1/3 lg:mb-24 flex justify-center items-center">
-            <img src={imgpic} alt="Trulli" className="w-3/4 sm:w-1/2 md:1/3 lg:w-full"></img>
+            <img
+              src="https://avatars.githubusercontent.com/u/171411557?s=400&u=13b6d6c0b91331681ae1049a044568cbc5f8021e&v=4"
+              alt="Trulli"
+              className="w-3/4 sm:w-1/2 md:1/3 lg:w-full rounded-full"
+            ></img>
           </div>
         </div>
       </section>

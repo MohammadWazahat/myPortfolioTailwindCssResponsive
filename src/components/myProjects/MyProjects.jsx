@@ -11,7 +11,7 @@ const MyProjects = () => {
     <div>
       <div>
         <div>
-          <div className="flex gap-6 m-12">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 m-12">
             <button
               className="border border-green-100 hover:border-green-300 hover:text-green-300 p-3"
               onClick={() => setProjectNo("one")}
